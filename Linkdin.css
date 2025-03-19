@@ -1,0 +1,93 @@
+body {
+    margin-left: 140px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: black;
+}
+
+.image img {
+    width: 110px;
+    height: 40px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+
+.navbar .join-now {
+
+    cursor: pointer;
+
+    padding: 10px 25px;
+    
+    background-color: white;
+   
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.sign-in-btn {
+    padding: 10px 25px;
+    border: 2px solid #0077B5;
+    background-color: white;
+    color: #0077B5;
+    cursor: pointer;
+    border-radius: 20px;
+   
+}
+
+.Google{
+    width: 500px;
+    height:40px;
+    border: 2px solid #0077B5;
+    background-color: rgb(57, 128, 242);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+     display:left;
+   
+}
+
+
+.sign-in-btn:hover,.join-now:hover{
+    background-color: #d1eaff;
+}
+
+.sectionContainer {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+
+.sectionLeft {
+    width: 800px;
+    height: 570px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.sectionRight {
+    width: 700px;
+    height: 570px;
+    background-color: rgb(155, 235, 248);
+    float: right;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
